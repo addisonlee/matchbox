@@ -39,5 +39,4 @@ public class IterableMatchers {
     public static <T> Matcher<Iterable<T>> hasSomeElementsSatisfying(SelfDescribingPredicate<T> predicate) {
         return new HasSomeElementsSatisfyingMatcher<T>(predicate);
     }
-
 }
